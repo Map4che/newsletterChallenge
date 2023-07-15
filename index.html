@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="./assets/Style/principal.css" />
+    <link rel="stylesheet" href="./assets/Style/secundario.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="info">
+          <h1 class="info-title">Stay updated!</h1>
+          <p class="info-texto">
+            <span class="info-texto__escrito">
+              Join 60,000+ product managers receiving monthly updates on:</span
+            >
+          </p>
+          <div class="info-lista">
+            <ul class="info-lista__contenedor">
+              <li class="info-lista__item">
+                <img
+                  src="./assets/images/icon-success.svg"
+                  alt="palomilla"
+                  class="info-lista__imagen"
+                />
+                <p class="info-lista__texto">
+                  Product discovery and building what matters
+                </p>
+              </li>
+              <li class="info-lista__item">
+                <img
+                  src="./assets/images/icon-success.svg"
+                  alt=""
+                  class="info-lista__imagen"
+                />
+                <p class="info-lista__texto">
+                  Measuring to ensure updates are a success
+                </p>
+              </li>
+              <li class="info-lista__item">
+                <img
+                  src="./assets/images/icon-success.svg"
+                  alt=""
+                  class="info-lista__imagen"
+                />
+                <p class="info-lista__texto">And much more!</p>
+              </li>
+            </ul>
+          </div>
+          <div class="info-contenedor__input">
+            <div class="contenedor-verificar">
+              <label for="email" class="info-email">Email address</label>
+              <p class="mensaje-error">Valid email required</p>
+            </div>
+            <input
+              type="email"
+              class="info-lista__input"
+              id="email"
+              placeholder="email@company.com"
+              required
+              data-tipo="email"
+            />
+            <button type="submit" class="info-lista__btn" data-tipo="button">
+              Subscribe to monthly newsletter
+            </button>
+          </div>
+        </div>
+        <div class="imagen-formulario"></div>
+      </div>
+      <div class="container-success">
+        <img
+          src="./assets/images/icon-success.svg"
+          alt=""
+          class="imagen-check"
+        />
+        <h1 class="title-success">Thanks for subscribing!</h1>
+        <p class="texto-success">
+          A confirmation email has been sent to <b>ash@loremcompany.com</b>.
+          Please open it and click the button inside to confirm your
+          subscription.
+        </p>
+        <button class="btn-success">Dismiss message</button>
+      </div>
+    </main>
+    <script src="principal.js"></script>
+  </body>
+</html>
+
+<!-- Sign-up form end -->
+
+<!-- Success message start -->
+
+<!-- 
+ 
+ 
+-->
