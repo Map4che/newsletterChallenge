@@ -20,13 +20,14 @@ html {
 
 body {
   background: var(--Charcoal);
+  font-size: 16px;
 }
 
 .container {
   display: flex;
   background-color: var(--White);
   width: 60vw;
-  height: 70vh;
+  height: 71vh;
   padding: 2rem;
   margin: 14rem auto 5rem;
   border-radius: 2.5rem;
@@ -156,6 +157,12 @@ body {
 
 .esconder {
   display: none;
+}
+
+.attribution {
+  position: absolute;
+  top: 86%;
+  left: 40%;
 }
 
 @media screen and (max-width: 375px) {
